@@ -1,0 +1,47 @@
+/* Web Font - Noto Sans KR */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NEXEN_TIRE_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/NEXEN_TIRE_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*  
+/* Web Font - Noto Sans KR 
+{
+    font-family: 'Noto Sans KR', sans-serif
+}
+
+body {
+     font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+} */
+
+h1 {
+    font-family: 'S-CoreDream-3Light';
+}
+
+body {
+    font-family: 'NEXEN_TIRE_Regular';
+}
+
+
+input,
+button {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+
+p span {
+    font-weight: 500;
+}
+

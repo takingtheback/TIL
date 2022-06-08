@@ -1,0 +1,22 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*
+인접 선택자 +
+형제 선택자 ~
+ul + p 인접 선택자
+ul ~ p 형제 선택자
+*/
+ul ~ p {
+    color: red;
+    font-weight: bold;
+}
+
+ul ~ div div {
+    color: blue;
+    font-weight: bold;
+}

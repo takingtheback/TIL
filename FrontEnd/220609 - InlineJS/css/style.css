@@ -1,0 +1,21 @@
+.daum {
+    border: 5px solid red;
+    width: 100%;
+    height: 30vh;
+    cursor: pointer;
+    font-size: 1.5em;
+     /* flex로 글자 위치 조정  */
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.daum2 {
+    border: 5px solid blue;
+    width: 100%;
+    height: 30vh;
+    cursor: pointer;
+    font-size: 1.5em;
+     /* 글자위치 수동 조정  */
+    line-height: 30vh;
+    text-align: center; 
+}

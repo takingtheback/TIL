@@ -4,7 +4,7 @@
 /* Fontawesome 4.7 */
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -55,6 +55,7 @@ input[id=trigger]:checked + label span:nth-child(1) {
 input[id=trigger]:checked + label span:nth-child(2) {
     opacity: 0;
 }
+
 input[id=trigger]:checked + label span:nth-child(3) {
     top: 50%;
     transform: rotate(-45deg);

@@ -1,0 +1,84 @@
+/* Google Web Fonts CDN */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    line-height: 1.6em;
+    color: #222;
+
+    /* Flex & Grid Centering */
+    display: flex;
+    /* display: grid; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+}
+
+
+.loading {
+    /* border: 1px solid red; */
+    width: 60px;
+    height: 60px;
+    position: relative;
+    /* Position */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; */
+}
+
+.loading span {
+    font-size: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.7);
+    font-weight: 500;
+    animation: loading 1s linear infinite;
+    
+}
+.circle {
+    border: 5px solid #000;
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-right-color: lightgray;
+    border-left-color: lightgray;
+    animation: circle 1s linear infinite;
+    /* animation: circle 1s linear infinite reverse; */
+    /* animation-direction: reverse; */
+}
+
+/* CSS Keyframe Animation - Circle */
+@keyframes circle {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* CSS Keyframe Animation - Loading */
+@keyframes loading {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

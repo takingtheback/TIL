@@ -1,6 +1,9 @@
 <!-- jQuery CDN -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
+<!-- jQuery UI CDN -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
 /* Google Web Fonts CDN */
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
 font-family: 'Noto Sans KR', sans-serif;
@@ -15,3 +18,16 @@ font-family: 'Montserrat', sans-serif;
 
 /* Fontawesome 4.7 */
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* XEION CDN */
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+==================================================================
+
+■ Reference URL
+
+FontAwesome 4.7 CheatSheet
+https://fontawesome.bootstrapcheatsheets.com/
+
+XEICON Ver2.3.3
+https://xpressengine.github.io/XEIcon/

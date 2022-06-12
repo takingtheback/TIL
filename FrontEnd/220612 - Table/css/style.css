@@ -1,0 +1,74 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #333;
+    line-height: 1.6em;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+/* Table : Member */
+.member {
+    width: 900px;
+    background-color: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.member caption {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.member tr {
+    border-bottom: 1px solid #eee;
+}
+.member tr:last-child {
+    border: none;
+}
+/* .member tr:hover {
+    background-color: #eee;
+    transition: 0.3s;
+} */
+/* 짝수는 even 홀수는 odd */
+/* .member tr:nth-child(even) {
+    background-color: #eee;
+} */
+.member tr:nth-child(odd) {
+    background-color: #ddd;
+}
+.member th,
+.member td {
+    padding: 12px;
+    text-align: center;
+    
+}
+.member tr th {
+    background-color: dodgerblue;
+    color: #fff;
+}
+.member tr th:first-child {
+    border-radius: 5px 0 0 0;
+}
+.member tr th:last-child {
+    border-radius: 0 5px 0 0;
+}
+
+.member tr td:last-child {
+    color: crimson;
+}
+/* 아래 코드시 테이블이 미세하게 밀리는 현상 발생 */
+.member tr td:hover {
+    font-weight: bold;
+    transition: 0.3s;
+    cursor:pointer;
+}

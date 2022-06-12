@@ -9,7 +9,7 @@ body {
     margin: 0;
     background-color: #222;
 }
-
+/* 카카오톡 XEicon */
 .frame i {
     font-size: 10em;
     color: #fff;
@@ -19,7 +19,6 @@ body {
                  0 0 120px crimson;
     animation: hue-rotate 3s linear infinite;
 }
-
 /* CSS Keyframe */
 @keyframes hue-rotate {
     0% {

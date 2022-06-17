@@ -1,5 +1,5 @@
 # Til
-## 2022-06-06 start
+## 2022-06-06 recording start
 ### FrontEnd Area
 HTML5  
 CSS3  
@@ -11,7 +11,7 @@ React Vue Angular
 React - Redux  
 Graphql  
   
-강의 : HTML+CSS+JS 포트폴리오 실전 Session2 - 코딩웍스  
+**강의** : HTML+CSS+JS 포트폴리오 실전 Session2 - 코딩웍스  
 
 ### General
 Data Structure  
@@ -24,6 +24,10 @@ Network
 
 # PHP 학습  
 WordPress LMS 구축 후 - 플러그인 조립만으로 한계를 느낌  
-보다 원활한 제작 위해 기본적인 문법 공부
-교제 : 그누위즈의 PHP & MySQL 웹 프로그래밍 입문 + 활용  
-강의 : 워드프레스 제대로 개발하기 - 어드민, 클라이언트 - 안형우
+보다 원활한 제작 위해 기본적인 문법 공부  
+**교제** : 그누위즈의 PHP & MySQL 웹 프로그래밍 입문 + 활용  
+**강의** : 워드프레스 제대로 개발하기 - 어드민, 클라이언트 - 안형우
+
+
+### Issue 
+**220614** : 깃허브 데스크탑 오류시 커밋 Push 오류

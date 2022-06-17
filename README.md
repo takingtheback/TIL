@@ -32,8 +32,9 @@ WordPress LMS 구축 후 - 플러그인 조립만으로 한계를 느낌
 ### Issue 
 **220614** : **GitHub DeskTop**   
 >> 프로그램 응답없음 오류시 커밋 Push 오류  
+    
 **220617** : **PHP**    
-- 16:50:26  [Apache] Error: Apache shutdown unexpectedly.  
+>> 16:50:26  [Apache] Error: Apache shutdown unexpectedly.  
 >> port 설정 문제로 판단 ->  https://themeisle.com/blog/xampp-error-apache-shutdown-unexpectedly/  참고 후 포트 변경 -> 실패  
 >> DocumentRoot 문제로 판단 -> http.conf > DocumentRoot 설정 변경 했으나 실패  
 >> 그누위즈 교재 p67 php.ini 설정값 변경 시 오류 발생 확인 > 설정 값 변경없이 작업 진행 

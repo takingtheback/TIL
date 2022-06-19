@@ -1,6 +1,6 @@
 /* Google Web Font */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
-/* XEION CDN */
+/* XEICON CDN */
 @import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
 
 body {
@@ -19,7 +19,7 @@ a {
 
 /* Tooltip SNS */
 .sns {
-    font-size: 16px; 
+    font-size: 25px; 
 }
 .sns a {
     color: #fff;
@@ -41,8 +41,7 @@ a {
     top: -20px;
     left: 50%;
     transform: translateX(-50%);
-    border-radius: 3px;
-    
+    border-radius: 3px;  
 }
 .sns a:after {
     content: '';

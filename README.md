@@ -44,7 +44,7 @@ Network  - 미완료
 input[type=number] {
     -moz-appearance: none;
 }
-코드만으로 삭제가 안됨 
+코드만으로 삭제가 안됨   
 input[type=number]::-webkit-outer-spin-button, 
 input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;

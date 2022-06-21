@@ -40,3 +40,17 @@ Network  - 미완료
 2. DocumentRoot 문제로 판단 -> http.conf > DocumentRoot 설정 변경 했으나 실패  
 3. 그누위즈 교재 p67 php.ini 설정값 변경 시 오류 발생 확인 > 설정 값 변경없이 작업 진행 
 
+**220621** : **input type number css 삭제**
+input[type=number] {
+    -moz-appearance: none;
+}
+코드만으로 삭제가 안됨 
+input[type=number]::-webkit-outer-spin-button, 
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type=number] {
+    -moz-appearance: none;
+}

@@ -1,0 +1,21 @@
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame {
+    /* border: 1px solid #000; */
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+#greeting {
+    background-color: #eee;
+    padding: 20px;
+    color: crimson;
+}
+#greeting.active {
+    background-color: crimson;
+    color: #eee;
+}

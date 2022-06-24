@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <div class="frame">
+            <div id="greeting">
+                Good to see you! Playdata!
+            </div>
+
+            <div class="btns">
+                <button id="btn1" onclick="addClass()">Add Class</button>
+                <button id="btn2" onclick="removeClass()">Delete Class</button>
+                <button id="btn3" onclick="toggleClass()">Toggle Class</button>
+                <button id="btn4">Text Change</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+    var greetingEL = document.getElementById('greeting');
+
+    function addClass() {
+        greetingEL.classList.add('active')
+    }
+    function removeClass() {
+        greetingEL.classList.remove('active')
+    }
+    function toggleClass() {
+        greetingEL.classList.toggle('active')
+    }
+
+    var btnchange = document.getElementById('btn4');
+
+    btnchange.addEventListener('click', function() {
+        greetingEL.innerHTML = 'You clicked the toggle button'
+    })
+    </script> 
+</body>
+</html>

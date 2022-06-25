@@ -1,0 +1,14 @@
+/* Mobile Layout */
+@media (max-width: 767px) {
+    .modal-content {
+        flex-direction: column;
+        width: 100%;
+    }
+    .modal-content > div {
+        width: 350px;
+    }
+    .photo {
+        /* flex로 받는 경우 flex-basis 사용 */
+        flex-basis: 250px;
+    }
+}

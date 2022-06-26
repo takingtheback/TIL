@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Footer Select</title>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>Header</header>
+        <section>Section #01</section>
+        <section>Section #02</section>
+        <section>Section #03</section>
+        <section>Section #04</section>
+        <Footer>
+            <div class="footer-inner">
+                <div class="copyright">
+                    <div class="policy">
+                        <a href="#none">개인정보처리방침</a><em>|</em><a href="#none">사이트맵</a>
+                    </div>
+                    <div class="info">
+                        <p>
+                            서울시 금천구 가산디지털1로 25 대륭테크노타운17차 18층 Playdata<em>|</em>E-mail. playdata@playdata.io
+                        </p>
+                        <p>
+                            COPYRIGHT (C) 2022 Playdata All rights reserved.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="family">
+                    <div class="dropdown">
+                        <div class="title">Family Site</div>
+                        <ul class="sub-navi">
+                            <li><a href="#none1">프리레슨</a></li>
+                            <li><a href="#none2">부트캠프</a></li>
+                            <li><a href="#none3">후기모음</a></li>
+                            <li><a href="#none4">세미나</a></li>
+                            <li><a href="#none5">취업지원</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </Footer>
+    </div>
+    <!-- Jquery -->
+    <script>
+        $('.title').click(function() {
+            $('.sub-navi').slideToggle()
+            $(this).toggleClass('active')
+        })
+        $('.sub-navi li').click(function() {
+            $(this).parent().slideUp()
+            $('.title').text($(this).text())
+        }) 
+    </script>
+</body>
+</html>

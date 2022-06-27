@@ -52,3 +52,9 @@ input[type=number]::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance: none;
 }
+  
+**220627** : **Flex 항목 안에 두가지 이상 요소가 있는 경우**  
+- 부모 요소에 display: flex;justify-content: center;align-items: center; 을 하면 자식 요소는 중앙 정렬됨  
+- 자식 요소가 두 개 이상인 경우 ex) section 안에 h1, p  
+- display: flex;flex-direction: column;justify-content: center;  값을 줘야 중앙 정렬됨  
+- flex-direction: column;을 주는 순간 행열이 바뀌는 걸로 인식하므로 align-items: center;가 아니라 justify-content: center; 값을 줘야함

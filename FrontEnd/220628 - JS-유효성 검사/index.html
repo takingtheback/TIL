@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Login 유효성 검사</title>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="icon" href="/images/802405ebbbf04.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="login">
+        <img src="/images/playdata-logo.png">
+        <h1>Playdata Login</h1>
+        <form action="">
+            <div class="input-field">
+                <input type="email" id="userid" autocomplete="off" required><span>USER EMAIL</span>
+            </div>
+            <div class="input-field">
+                <input type="password" id="userpw" required maxlength="12" minlength="3"><span>PASSWORD</span>
+            </div>
+            <div class="button-field">
+                <input type="submit" value="Sign In" id="login-btn">
+            </div>
+            <div class="add-info">
+                <label>
+                    <input type="checkbox" id="save-email"><em></em><span>Save your Email?</span>
+                </label>
+                <a href="#none">Forgot Password?</a>
+            </div>
+        </form>
+    </section>
+    <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+/* XEIcon CDN */
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+/* Section : 아시아나 항공 로딩 */
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.asiana {
+    position: relative;
+    overflow: hidden;
+}
+/* dot */
+.asiana span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: dots 1s linear infinite;
+}
+.asiana span:nth-child(1) {
+    background-color: #c70752;
+    animation-delay: 0s;
+}
+.asiana span:nth-child(2) {
+    background-color: #ed1b24;
+    animation-delay: 0.1s;
+}
+.asiana span:nth-child(3) {
+    background-color: #ffc324;
+    animation-delay: 0.2s;
+}
+.asiana span:nth-child(4) {
+    background-color: #4a2e92;
+    animation-delay: 0.3s;
+}
+.asiana span:nth-child(5) {
+    background-color: #273693;
+    animation-delay: 0.4s;
+}
+/* Animation Keyframe : dot */
+@keyframes dots {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    60% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+/* plain */
+.asiana i {
+    transform: rotate(90deg);
+    color: #999;
+    font-size: 1.6em;
+    position: absolute;
+    animation: plane 1s linear infinite;
+}
+/* Animation Keyframe : plane */
+@keyframes plane {
+    0% {
+        left: -35%;
+    }
+    100% {
+        left: 100%;
+    }
+}

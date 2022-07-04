@@ -226,3 +226,93 @@ section {
     right: 20%;
     top: 10%;
 }
+/* Section : FAQ */
+.faq {
+    padding: 80px 0;
+}
+.faq-inner {
+    width: 850px;
+    margin: auto;
+}
+.faq-inner h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom:70px;
+    margin-top: 0px; 
+    display: block;
+}
+input[name=faq-item] {
+    display: none;
+}
+input[name=faq-item] + label {
+    display: block;
+    background-color: #303030;
+    padding: 15px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.faq-content {
+    background-color: #303030;
+    padding: 0px;
+    margin-bottom: 10px;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: max-height 0.5s;
+}
+input[name=faq-item] + label span {
+    float: right;
+    transition: 0.35s;
+    font-size: 35px;
+}
+/* aside */
+aside {
+    text-align: center;
+}
+aside p {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 18px;
+}
+/* Checked Function */
+input[name=faq-item]:checked + label + .faq-content {
+    max-height: 500px;
+    padding: 15px;
+}
+input[name=faq-item]:checked + label span {
+    transform: rotate(45deg);
+}
+/* Footer */
+footer {
+    padding: 50px 0;
+    font-size: 12px;
+    color: #777;
+    line-height: 1.5em;
+  }
+  .footer-inner {
+    width: 850px;
+    margin: auto;
+  }
+  .sitemap {
+    border-bottom: 1px solid #222;
+    padding-bottom: 20px;
+  }
+  .sitemap h6 {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: normal;
+  }
+  .items {
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+    line-height: 2em;
+  }
+  .items a {
+    color: #777;
+    display: block;
+  }
+  .items a:hover {
+    text-decoration: underline;
+  }
